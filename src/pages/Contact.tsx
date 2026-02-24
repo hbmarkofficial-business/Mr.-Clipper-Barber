@@ -10,57 +10,51 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Kontakt & Termin | The Gentleman's Cut Berlin</title>
+        <title>Kontakt & Termin | Tailor’s Barbershop By Meister Viken Bonn</title>
         <meta 
           name="description" 
-          content="Kontaktieren Sie The Gentleman's Cut in Berlin. Vereinbaren Sie Ihren Termin über unseren Chatbot oder rufen Sie uns an. Mo-Fr 09-20 Uhr, Sa 10-18 Uhr." 
+          content="Kontaktieren Sie Tailor’s Barbershop By Meister Viken in Bonn. Vereinbaren Sie Ihren Termin über unseren Chatbot oder rufen Sie uns an. Mo-Sa 09:00-19:00 Uhr." 
         />
-        <link rel="canonical" href="https://gentlemanscut.de/kontakt" />
+        <link rel="canonical" href="https://tailors-barbershop.de/kontakt" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Barbershop",
-            "@id": "https://example-barbershop.at/#barbershop",
-            "name": "Beispiel Barbershop Wien",
-            "url": "https://example-barbershop.at",
-            "logo": "https://example-barbershop.at/images/logo.png",
-            "image": "https://example-barbershop.at/images/shop.jpg",
-            "telephone": "+43 1 2345678",
+            "@id": "https://tailors-barbershop.de/#barbershop",
+            "name": "Tailor’s Barbershop By Meister Viken",
+            "url": "https://tailors-barbershop.de",
+            "logo": "https://tailors-barbershop.de/images/logo.png",
+            "image": "https://tailors-barbershop.de/images/shop.jpg",
+            "telephone": "+49 228 12345678",
             "priceRange": "€€",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Musterstraße 12",
-              "addressLocality": "Wien",
-              "postalCode": "1020",
-              "addressCountry": "AT"
+              "streetAddress": "Musterstraße 1",
+              "addressLocality": "Bonn",
+              "postalCode": "53111",
+              "addressCountry": "DE"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "48.2167",
-              "longitude": "16.3958"
+              "latitude": "50.7374",
+              "longitude": "7.0982"
             },
             "areaServed": {
               "@type": "AdministrativeArea",
-              "name": "Wien"
+              "name": "Bonn"
             },
             "openingHoursSpecification": [
               {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
                 "opens": "09:00",
                 "closes": "19:00"
-              },
-              {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": "Saturday",
-                "opens": "09:00",
-                "closes": "17:00"
               }
             ],
             "sameAs": [
-              "https://www.google.com/maps?cid=1234567890",
-              "https://www.instagram.com/beispielbarbershop",
-              "https://www.facebook.com/beispielbarbershop"
+              "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1357241.283660542!2d8.460823956250003!3d48.3631776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ebd4910fbd1db%3A0x693dff4a448c8e91!2sMr.%20Clipper%20Barber!5e0!3m2!1sde!2sde!4v1771960682772!5m2!1sde!2sde",
+              "https://www.instagram.com/tailorsbarbershop",
+              "https://www.facebook.com/tailorsbarbershop"
             ]
           })}
         </script>
@@ -138,10 +132,10 @@ const Contact = () => {
                       Oder rufen Sie uns direkt an:
                     </p>
                     <a 
-                      href="tel:015118311067" 
+                      href="tel:082120980306" 
                       className="block text-center text-primary font-semibold mt-2 hover:underline"
                     >
-                      015118311067
+                      082120980306
                     </a>
                   </div>
 
@@ -192,8 +186,8 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Adresse</h3>
                         <p className="text-muted-foreground">
-                          Färberstraße 54<br />
-                          90402 Nürnberg
+                          Musterstraße 1<br />
+                          53111 Bonn
                         </p>
                       </div>
                     </div>
@@ -205,10 +199,10 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Telefon</h3>
                         <a 
-                          href="tel:015118311067" 
+                          href="tel:082120980306" 
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
-                          015118311067
+                          082120980306
                         </a>
                       </div>
                     </div>
@@ -220,10 +214,10 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">E-Mail</h3>
                         <a 
-                          href="mailto:info@gentlemanscut.de" 
+                          href="mailto:info@tailors-barbershop.de" 
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
-                          info@mustershop.de
+                          info@tailors-barbershop.de
                         </a>
                       </div>
                     </div>
@@ -235,8 +229,7 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Öffnungszeiten</h3>
                         <ul className="text-muted-foreground space-y-1 text-sm">
-                          <li>Mo - Fr: 10:00 - 20:00</li>
-                          <li>Samstag: 10:00 - 19:00</li>
+                          <li>Mo - Sa: 9:00 - 19:00</li>
                           <li>Sonntag: Geschlossen</li>
                         </ul>
                       </div>
@@ -244,15 +237,15 @@ const Contact = () => {
                   </div>
 
                   <div className="aspect-video rounded-sm overflow-hidden border border-border mt-8">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.935844488252!2d11.069183276892435!3d49.44792955903806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a835434d4d%3A0xfba938ebd99d6f67!2sTop%20Salon%20-%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769779552025!5m2!1sde!2sde"
-                      width="100%"
-                      height="100%"
-                      style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
-                      allowFullScreen
-                      loading="lazy"
+                    <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1357241.283660542!2d8.460823956250003!3d48.3631776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ebd4910fbd1db%3A0x693dff4a448c8e91!2sMr.%20Clipper%20Barber!5e0!3m2!1sde!2sde!4v1771960682772!5m2!1sde!2sde" 
+                      width="100%" 
+                      height="100%" 
+                      style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }} 
+                      allowFullScreen 
+                      loading="lazy" 
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Standort The Gentleman's Cut"
+                      title="Standort Tailor’s Barbershop By Meister Viken"
                     />
                   </div>
                 </div>
